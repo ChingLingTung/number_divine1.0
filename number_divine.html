@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>易經數字卦</title>
+  <link rel="stylesheet" href="number_divine.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form_border">
+      <div class="title">請輸入六個1-9的數字</div>
+      <form name="numberForm" onsubmit="sendData(event)" >        
+        <input type="text" class="numberField" name="Number1" id="Number1" maxlength="1">
+        <input type="text" class="numberField" name="Number2" maxlength="1">
+        <input type="text" class="numberField" name="Number3" maxlength="1">
+        <input type="text" class="numberField" name="Number4" maxlength="1">
+        <input type="text" class="numberField" name="Number5" maxlength="1">
+        <input type="text" class="numberField" name="Number6" maxlength="1">
+        <button type="submit">確定</button>
+      </form>
+      <br>
+      <div class="result">
+        <div class="result_title">卜卦結果</div>
+        <br/>
+        <div id="result_Hexagram"></div>
+        <div id="result_HexagramFigure"></div>
+        <div class="Hexagram">
+          <p id="HexagramName">卦名：</p>
+          <p id="HexagramOriginExplanation">古文解釋</p>
+          <p id="HexagramModernExplanation">白話解釋</p>
+        </div>
+        <br>
+        <div class="individualExplanation">
+          <p class="HexagramFigure" id="HexagramFigure">爻名</p>
+          <p id="HexagramFigureOriginExplanation">爻古文解釋</p>
+          <p id="HexagramFigureModernExplanation">爻白話解釋</p>
+        </div>
+      </div>
+      <p>參考網站：<a href="https://www.eee-learning.com/article/181" target="_blank">https://www.eee-learning.com/article/181</a></p>
+  </div>
+</div>
+
+<script src="number_divine.js"></script>
+
+</body>
+</html>

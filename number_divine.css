@@ -1,0 +1,51 @@
+.container{
+  margin:auto;
+  margin-top:100px;
+  text-align: center;
+  width: 800px;
+}
+.form_border{
+  border: 2px #ffa7a7 solid ;
+  padding: 50px;
+  border-radius: 20px;
+}
+.title{
+  font-size:50px;
+  margin-bottom: 30px;
+}
+input{
+  outline-style: none;
+  border:0;
+  border-bottom:3px solid #ffa7a7;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  font-size: 24px;
+}
+button{
+  outline-style: none;
+  border:0;
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  font-size: 24px;
+  color: #fff;
+  background-color: #ffa7a7;
+  border-radius: 10px;
+}
+.container .form_border .result{
+  text-align: left;
+  font-size:24px;
+  font-weight: bold;
+  line-height: 50px;
+}
+.container .form_border .result .result_title{
+  font-size:35px;
+  margin: 20px,0;
+  text-align: start;
+}
+.container .form_border .result #HexagramFigure,.container .form_border .result #HexagramName{
+  font-family: '標楷體';
+  text-align: start;
+  font-size:30px;
+}
